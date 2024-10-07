@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "title": "Mochila G",
+      "compra": true,
+      "id": "75e2"
+    },
+    {
+      "title": "Camiseta",
+      "compra": true,
+      "id": "39e1"
+    },
+    {
+      "id": "7632",
+      "title": "Boné",
+      "compra": true
+    },
+    {
+      "title": "Sandalia",
+      "compra": false,
+      "id": "c83d"
+    },
+    {
+      "title": "farda",
+      "compra": false,
+      "id": "d8db"
+    }
+  ]
+}
