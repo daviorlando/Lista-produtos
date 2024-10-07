@@ -1,27 +1,74 @@
-# ProductStore
+# Lista de Compras - Angular 18
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+Este é um projeto simples de Lista de Compras desenvolvido com Angular 18. Ele permite ao usuário adicionar, editar, marcar como comprados, agrupar por status e excluir itens de uma lista interativa.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 1. Criação de Itens na Lista
+- O usuário pode adicionar novos itens na lista através de um campo de texto.
+- Os itens são adicionados dinamicamente e aparecem diretamente na interface.
 
-## Code scaffolding
+### 2. Edição de Itens
+- O usuário pode editar os itens da lista clicando em um ícone de edição ao lado do item.
+- As alterações são atualizadas em tempo real na lista.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 3. Marcar como Comprado
+- Cada item pode ser marcado como "comprado", alterando visualmente a cor ou o estilo do item na lista.
+- Itens comprados e não comprados são exibidos separadamente.
 
-## Build
+### 4. Agrupamento por Status
+- A lista separa automaticamente os itens "Comprados" dos "Não Comprados".
+- Ambos os grupos são exibidos na mesma página, proporcionando uma visualização clara e organizada.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 5. Exclusão de Itens
+- O usuário pode excluir qualquer item da lista clicando no ícone de "lixeira" ao lado do item.
+- Após a exclusão, o item desaparece imediatamente da lista.
 
-## Running unit tests
+## Instalação
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Pré-requisitos
+- Node.js (v16 ou superior)
+- Angular CLI
 
-## Running end-to-end tests
+### Passos para execução:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    cd nome-do-repositorio
+    ```
 
-## Further help
+2. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. Execute o servidor de desenvolvimento:
+    ```bash
+    ng serve
+    ```
+
+4. Acesse o aplicativo em:
+    ```
+    http://localhost:4200
+    ```
+
+## Estrutura do Projeto
+
+- **src/app/components/**: Contém os componentes do projeto, incluindo a lista de itens, o campo de adição e botões de ação (edição, exclusão, etc.).
+- **src/app/services/**: Inclui serviços para gerenciamento de dados (se aplicável, como armazenamento local ou conexão com APIs).
+- **src/styles/**: Contém estilos globais e específicos para os itens comprados e não comprados.
+
+## Contribuição
+
+1. Fork o projeto.
+2. Crie uma nova branch (`git checkout -b feature/nova-funcionalidade`).
+3. Commit suas alterações (`git commit -m 'Adiciona nova funcionalidade'`).
+4. Push a branch (`git push origin feature/nova-funcionalidade`).
+5. Crie um Pull Request.
+
+## Tecnologias Utilizadas
+
+- **Angular 18**: Framework principal para a construção da interface do usuário.
+- **TypeScript**: Linguagem utilizada no desenvolvimento.
+- **Bootstrap**: Para estilização básica (opcional).
