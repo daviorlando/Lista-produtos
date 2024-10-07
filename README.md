@@ -1,4 +1,4 @@
-# Lista de Compras - Angular 18
+# Lista de Produtos - Angular 18
 
 Este é um projeto simples de Lista de Compras desenvolvido com Angular 18. Ele permite ao usuário adicionar, editar, marcar como comprados, agrupar por status e excluir itens de uma lista interativa.
 
