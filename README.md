@@ -45,7 +45,7 @@ Este é um projeto simples de Lista de Compras desenvolvido com Angular 18. Ele 
 
 3. Execute o servidor de desenvolvimento:
     ```bash
-    ng serve
+    npm start
     ```
 
 4. Acesse o aplicativo em:
