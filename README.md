@@ -41,6 +41,7 @@ Este é um projeto simples de Lista de Compras desenvolvido com Angular 18. Ele 
 2. Instale as dependências:
     ```bash
     npm install
+    npm install json-server
     ```
 
 3. Execute o servidor de desenvolvimento:
